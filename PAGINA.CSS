@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo claro para contraste */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px; /* Ancho máximo para centrar el contenido */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+.sidebar {
+    width: 25%; /* Aumentar el ancho de la barra lateral */
+    background-color: #ffffff; /* Fondo blanco para la barra lateral */
+    padding: 20px;
+    border-right: 2px solid #ccc; /* Borde más grueso */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+.sidebar h2 {
+    font-size: 1.5em; /* Tamaño del título */
+    margin-bottom: 15px; /* Espacio debajo del título */
+    color: #333; /* Color del texto */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 15px; /* Espacio entre elementos */
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgba(230, 83, 16, 0.7); /* Color del enlace */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.sidebar a:hover {
+    color: rgba(230, 83, 16, 0.7); /* Color al pasar el ratón */
+}
+
+.main-content {
+    width: 75%; /* Ancho de la parte principal */
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para la sección principal */
+}
+
+.main-content h1 {
+    font-size: 2em; /* Tamaño del título principal */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+#searchForm {
+    display: flex; /* Usar flexbox para el formulario de búsqueda */
+    margin-bottom: 20px; /* Espacio debajo del formulario */
+}
+
+#searchInput {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde del campo de búsqueda */
+    border-radius: 5px 0 0 5px; /* Bordes redondeados */
+    font-size: 1em; /* Tamaño de fuente */
+}
+
+#searchForm button {
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(230, 83, 16, 0.7); /* Color del botón */
+    color: white; /* Texto blanco */
+    border-radius: 0 5px 5px 0; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+#searchForm button:hover {
+    background-color: rgba(230, 83, 16, 0.7); /* Color del botón al pasar el ratón */
+}
+
+#polls {
+    margin-top: 20px; /* Espacio superior */
+}
+
+#polls h2 {
+    font-size: 1.5em; /* Tamaño del título de encuestas */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+#polls ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#polls li {
+    margin-bottom: 15px; /* Espacio entre encuestas */
+}
+
+#polls label {
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    font-size: 1.1em; /* Tamaño de fuente de las etiquetas */
+    color: #555; /* Color del texto de las etiquetas */
+}
